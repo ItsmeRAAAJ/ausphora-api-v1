@@ -38,7 +38,8 @@ app.use(passport.session());
 
 const corsOptions = {
     origin: [
-        'http://localhost:3000'
+        'http://localhost:3000',
+        'https://auspfe.vercel.app'
     ],
     credentials: true,
     optionsSuccessStatus: 200
